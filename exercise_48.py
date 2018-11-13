@@ -6,7 +6,7 @@
 # Exercise 48: Chinese Zodiac.
 
 """
-The Chine zodiac assigns animals to years in a 12 year cycle. One 12 year
+The Chinese zodiac assigns animals to years in a 12 year cycle. One 12 year
 cycle is shown in the table below. the pattern repeats from there, with 2012
 being another year of the dragon, and 1999 being another year of the hare.
 
