@@ -6,7 +6,7 @@
 # Exercise 13: Making Change.
 
 """
-Consider the software that runs on a self-checkout machine. One task that it 
+Consider the software that runs on a self-checkout machine. One task that it
 must be able to perform is to determine how much change to provide when the
 shopper pays for a purchase with cash.
 

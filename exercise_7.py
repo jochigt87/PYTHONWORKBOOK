@@ -12,3 +12,6 @@ positive integers can be computed using the formula:
 
                 sum = (n)(n + 1)/2
 """
+n = int(input("Insert an positive integer: "))
+SUMA = (n)*(n + 1) // 2
+print(SUMA)

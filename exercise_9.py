@@ -14,3 +14,15 @@ your program should compute and display the amount in the savings account
 after 1, 2, and 3 years. Display each amount so that it is rounded to 2
 decimal places.
 """
+
+INTEREST_PER_YEAR = 0.04
+
+deposited = float(input("Insert the amount do you want deposit: "))
+
+first_year = (deposited * INTEREST_PER_YEAR) + deposited
+second_year = (first_year * INTEREST_PER_YEAR) + first_year
+third_year = (second_year * INTEREST_PER_YEAR) + second_year
+
+print("First Year", f'{first_year:.2f}')
+print("Second Year", f'{second_year:.2f}')
+print("Third Year",f'{third_year:.2f}')

@@ -12,3 +12,9 @@ area of the room. The lenght and the width will be entered as floating point
 numbers. Include units in your prompt and output message; either feet or meter
 depending on which unit you are more comfortable working with.
 """
+width = float(input("Insert the width of room in meters: "))
+lenght = float(input("Insert the lenght of room in meters: "))
+
+total = width * lenght
+
+print(total, "square meters")

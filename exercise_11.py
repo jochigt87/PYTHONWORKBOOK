@@ -7,9 +7,7 @@
 
 """
 In the United States, fuel efficiency for vehicules is normally expressed in
-miles-per-gallon(MPG). In Canada, fuel efficiency is normally expressed in 
+miles-per-gallon(MPG). In Canada, fuel efficiency is normally expressed in
 litters-per-hundred kilometers(L/100km). Use your research skills to determine
-how to convert from MPG to L/100km. Then create a program that reads a value
-from the import user in American units and displays the equivalent fuel
-efficiency in Canadian units.
+how to convert from MPG to
 """

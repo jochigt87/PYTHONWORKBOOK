@@ -14,7 +14,7 @@ degrees Celsius can be computed using the formula:
                     q = m.C.𝚫T.
 
     Write a program that reads the mass of some water and the temperature
-    change from the user. Your program should display the total amount of 
+    change from the user. Your program should display the total amount of
     energy that must be added or removed to archieve the desired temperature
     change.
 

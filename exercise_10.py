@@ -5,6 +5,7 @@
 
 # Exercise 10: Arithmetic.
 
+import math
 """
 Create a program that reads two integers, a and b, from the user. Your program
 should compute and display:
@@ -18,3 +19,12 @@ should compute and display:
     Hint: You will probably find the log10 function in the math module helpful
     for computing the second last item in the list.
 """
+
+a = int(input("Insert a: "))
+b = int(input("Insert b: "))
+
+print(a+b)
+print(a-b)
+print(a*b)
+print(a//b)
+print(math.log10(a)**a)

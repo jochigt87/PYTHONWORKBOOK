@@ -16,3 +16,13 @@ Your program should continue by computing and displaying the refund that
 will be received for returning those containers. Format the output so that it
 includes a dollar sign and always display exactly two decimal places.
 """
+
+LITER_LESS = 0.10
+LITER_MORE = 0.25
+
+less = int(input("Insert the drink containers one liter or less: "))
+more = int(input("Insert the drink containers one liter or more: "))
+
+refund = LITER_LESS * less + LITER_MORE * more
+
+print(f'{refund:.2f}')
