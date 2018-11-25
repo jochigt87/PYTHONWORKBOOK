@@ -23,8 +23,8 @@ should compute and display:
 a = int(input("Insert a: "))
 b = int(input("Insert b: "))
 
-print(a+b)
-print(a-b)
-print(a*b)
-print(a//b)
-print(math.log10(a)**a)
+print("a + b :", a + b)
+print("a - b :", a-b)
+print("a * b:", a*b)
+print(" a // b:", a//b)
+print("log base 10 of a is :", math.log10(a))

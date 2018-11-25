@@ -14,3 +14,13 @@ module in your calculations.
     👉 Hint: The area of a circle is computed using the formula area = pi*r^2,
     The volume of sphere is computed using the formula volume 4/3*pi*r^3.
 """
+import math
+
+pi = math.pi
+radius = float(input("Insert the radius: " ))
+
+area = pi * (radius**2)
+volume = (4/3) * pi * (radius**3)
+
+print("The Area of circle is: ", f'{area:.2f}')
+print("The Volume of sphere is: ", f'{volume:.2f}')
