@@ -28,5 +28,3 @@ distance between the points, following the surface of the earth, in kilometers
             previously. The math module contains a function named radians
             which converts from degrees to radians.
 """
-
-

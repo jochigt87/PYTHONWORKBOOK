@@ -13,3 +13,5 @@ m/s. Assume that the accelaration due to gravity is 9.8m/s^2. You can use the
 formula vf = sqrt(v^2 + 2ad to compute the final speed, vf, when the initial
 speed, vi, accelaration, a, and distance, d, are known.
 """
+
+

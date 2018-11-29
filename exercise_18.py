@@ -11,3 +11,12 @@ circular base by its height. Write a program that reads the radius of the
 cylinder, along with its height, from the user and computes its volume.
 Display the result rounded to one decimal place.
 """
+import math
+radius = float(input("Insert the radius of cylinder: "))
+height = float(input("Insert the height of cylinder: "))
+
+pi = math.pi
+
+volume = ((radius**2) * height) * (pi)
+print("the volume of cylinder is:", f'{volume:.1f}')
+

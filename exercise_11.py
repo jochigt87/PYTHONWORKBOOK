@@ -9,7 +9,7 @@
 In the United States, fuel efficiency for vehicules is normally expressed in
 miles-per-gallon(MPG). In Canada, fuel efficiency is normally expressed in
 litters-per-hundred kilometers(L/100km). Use your research skills to determine
-how to convert from MPG to L/100km
+how to convert from MPG to
 """
 
 mpg = float(input("Insert Miles-per-gallon: "))
