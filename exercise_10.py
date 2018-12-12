@@ -18,6 +18,7 @@ should compute and display:
 
     Hint: You will probably find the log10 function in the math module helpful
     for computing the second last item in the list.
+ok
 """
 
 a = int(input("Insert a: "))
