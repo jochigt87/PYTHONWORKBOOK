@@ -27,3 +27,11 @@ index is computed using this slightly simpler formula:
 
 
 """
+height_inches = float(input("Insert you height in inches: "))
+weight_pounds = float(input("Insert you weight in pounds:" ))
+
+
+
+
+
+
