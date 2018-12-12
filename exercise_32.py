@@ -12,3 +12,18 @@ the smallest and largest values. The middle value can be found by computing
 the sum of all three values, and then subtracting the minimum value the
 maximum value.
 """
+
+digit = int(input("Insert three digits: "))
+
+a = digit//100
+
+b = digit//10%10
+
+c = digit%10
+
+smaller = min(a, b, c)
+largest = max(a, b, c)
+
+middle = (a+b+c-smaller-largest)
+
+print("smaller", smaller, "largest", largest, "middle ", middle)

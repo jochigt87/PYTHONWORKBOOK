@@ -12,3 +12,11 @@ degrees Fahrenheit and degrees Kelvin. The calculations needed to convert
 between different units of temperature can be found on the internet.
 """
 
+celsius = float(input("Insert the temperature in celsius degrees: "))
+
+fahrenheit = (celsius *1.8000) + 32
+kelvin = (celsius + 273.15)
+
+print(celsius, "Celsius Degrees are: ")
+print(fahrenheit, "Fahrenheit Degrees")
+print(kelvin, "Kelvin Degrees")

@@ -12,3 +12,14 @@ the equivalent pressure in pounds per square inch, millimeters of mercury and
 atmospheres. Use your research skills to determine the conversion factors
 between these units.
 """
+kilopascals = float(input("Insert the pressure in kilopascals: "))
+
+pounds_per_inch = (0.145 * kilopascals)
+mmHg = (7.5006 * kilopascals)
+atmospheres = (0.0099 * kilopascals)
+
+
+print(kilopascals, "kilopascals are:")
+print(f'{pounds_per_inch:.2f}', "pounds per square")
+print(f'{mmHg:.2f}', "millimeters of mercury")
+print(f'{atmospheres:.2f}', "atmospheres")
