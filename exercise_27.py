@@ -30,8 +30,6 @@ index is computed using this slightly simpler formula:
 height_inches = float(input("Insert you height in inches: "))
 weight_pounds = float(input("Insert you weight in pounds:" ))
 
+body_max = ((weight_pounds) / (height_inches**2)) * 703
 
-
-
-
-
+print(body_max)

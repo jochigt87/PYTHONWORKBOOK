@@ -12,7 +12,8 @@ the smallest and largest values. The middle value can be found by computing
 the sum of all three values, and then subtracting the minimum value the
 maximum value.
 """
-
+import sys 
+sys.
 digit = int(input("Insert three digits: "))
 
 a = digit//100

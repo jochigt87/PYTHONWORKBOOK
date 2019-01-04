@@ -15,7 +15,20 @@ and the decimal points in all of the numbers should be aligned when reasonable
 values are entered by the user.
 """
 
+loaves_purchased = int(input("Inser the number of loaves you want buy: "))
 
+discount = 0.60
 
+price_loaves = 3.49
 
+discounted_price = (discount * loaves_purchased)
 
+regular_price = (price_loaves * loaves_purchased)
+
+price_with_discount = (regular_price - discounted_price)
+
+print("Regular Price: ", f'{regular_price:.2f}')
+
+print("Price with Discount:", f'{price_with_discount:.2f}')
+
+print("Discount:", f'{discounted_price:.2f}')

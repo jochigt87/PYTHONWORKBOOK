@@ -31,6 +31,22 @@ denomination. The United States has also issued banknotes in denomination of
 $500, $1000, $5000, and $10,000 for public use. However, high denomination
 banknotes have not been printed since 1945 and were officially discountinued
 in 1969. As a result, we will not consider them in this exercise.
-
-
 """
+denomination = input("Insert a denomination of a banknote: ")
+
+if denomination == "1":
+    print("George Washington")
+elif denomination == "2":
+    print("Thomas Jefferson")
+elif denomination == "5":
+    print("Abraham Lincoln")
+elif denomination == "10":
+    print("Alexander Hamilton")
+elif denomination == "20":
+    print("Andrew Jackson")
+elif denomination == "50":
+    print("Ulysses S.Grant")
+elif denomination == "100":
+    print("Benjamin Franklin")
+else:
+    print("banknote not exists")

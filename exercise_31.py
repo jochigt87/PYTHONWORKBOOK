@@ -29,4 +29,6 @@ c = sumatoria%1000//100
 
 d = sumatoria%10000//1000
 
+# Show the result on screen.
+
 print(a + b + c + d)

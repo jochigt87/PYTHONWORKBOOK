@@ -24,5 +24,19 @@ Canada has two additional national holidays, Good Friday and Labour Day, whose
 dates vary from year to year. There are numerous provincial and territorial
 holidays, some of which have fixed dates, and some of which have variable
 dates. We will not consider any of these additional holidays in this exercise.
-  
 """
+
+day = input("Insert the day: ")
+month = input("Insert the month: ")
+
+if month == "january" or month == "January":
+    if day == "1":
+        print("New year's day")
+elif month == "July" or month == "july":
+    if day == "1":
+        print("Canada Day")
+elif month == "December" or month == "december":
+    if day == "25":
+        print("Christmas Day")
+else:
+    print("The date inserted not correspond with the stored")

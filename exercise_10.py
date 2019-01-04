@@ -6,6 +6,7 @@
 # Exercise 10: Arithmetic.
 
 import math
+math.
 """
 Create a program that reads two integers, a and b, from the user. Your program
 should compute and display:

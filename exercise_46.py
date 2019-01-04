@@ -24,3 +24,18 @@ the name of the month as a string, followed by the day within the month as an
 integer. Then your program should display the season associated with the date
 that was entered.
 """
+season = input("Insert a month:")
+day = input("Insert a day: ")
+
+
+if season == "March" or season == "Abril" or season == "May":
+    if day == "20":
+        print("Spring")
+
+elif season == "June" or season == "July" or season == "August":
+    if day == "21":
+        print("Summer")
+
+elif season == "September" or season == "October" or season == "November":
+    if day == "22":
+        print("Winter")
