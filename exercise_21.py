@@ -21,3 +21,4 @@ h = float(input("Insert the height of Triangle in meters: "))
 
 area = (b*h)/2
 print("The area of Triangle is: ", f'{area:.2f}', "meters")
+
